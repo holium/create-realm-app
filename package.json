@@ -1,6 +1,6 @@
 {
   "name": "@holium/create-realm-app",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Build a Realm application with TomeDB.",
   "main": "node install.js",
   "bin": "install.js",

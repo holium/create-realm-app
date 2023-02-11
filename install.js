@@ -55,7 +55,7 @@ async function main() {
       files: [
         'README.md',
         'ui/index.html',
-        `ui/src/app.tsx`,
+        `ui/src/App.tsx`,
         'desk/desk.docket-0',
       ].map(prefixPath),
       from: /%APPNAME%/g,
@@ -67,7 +67,7 @@ async function main() {
         'README.md',
         'ui/package.json',
         `ui/vite.config.ts`,
-        `ui/src/app.tsx`,
+        `ui/src/App.tsx`,
         'desk/desk.docket-0',
       ].map(prefixPath),
       from: /%APPSLUG%/g,
