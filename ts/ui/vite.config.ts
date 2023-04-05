@@ -4,13 +4,13 @@ import react from '@vitejs/plugin-react-swc'
 import { urbitPlugin } from '@holium/vite-plugin-urbit'
 
 // https://vitejs.dev/config/
-export default ({ mode }) => {
+export default async ({ mode }) => {
   Object.assign(process.env, loadEnv(mode, process.cwd()))
   const SHIP_URL =
     process.env.SHIP_URL || process.env.VITE_SHIP_URL || 'http://localhost:8080'
   console.log(SHIP_URL)
 
-  return defineConfig({
+  return await defineConfig({
     mode: process.env.NODE_ENV,
     build: {
       target: 'esnext',

@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import Urbit from '@urbit/http-api'
-import Tome, { KeyValueStore, FeedStore, FeedlogEntry } from '@holium/tome-db'
+import Tome, {
+  type KeyValueStore,
+  type FeedStore,
+  type FeedlogEntry
+} from '@holium/tome-db'
 
 const api = new Urbit('', '', window.desk)
 api.ship = window.ship

@@ -14,8 +14,8 @@
     "lint": "eslint ./src --fix"
   },
   "dependencies": {
-    "@holium/tome-db": "^1.0.2",
-    "@urbit/api": "^2.2.0",
+    "@holium/tome-db": "^1.2.2",
+    "@urbit/api": "^2.3.0",
     "@urbit/http-api": "^2.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -28,6 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
+    "@swc/helpers": "^0.5.0",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
